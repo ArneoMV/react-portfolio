@@ -1,0 +1,86 @@
+import React from "react";
+import IMAGES from '../../utilities/images.js';
+
+const Experience = () => {
+	return (
+		<div className="card experience">
+			<div className="experience__card">
+				<h3>Industry Experience</h3>
+			</div>
+
+			<div className="tda__body">
+				<div className="tda__top">
+					<div className="tda__top__box">
+						<div className="row">
+							<h4>Top Digital Agency</h4>
+							<img src={IMAGES.arrow} alt="open" />
+						</div>
+						<div className="tda__experience__info">
+							<p>Graphic Designer</p>
+							<div className="row">
+								<p>2020 / 2022</p>
+								<p>Zagreb</p>
+							</div>
+							<p>Graphic designer for 2D and 3D graphics and virtual scenes. Work in the department of TV production and TV playout for Croatian Radio Television News.</p>
+						</div>
+					</div>
+				</div>
+
+				<div className="tda__bottom">
+					<div className="tda__bottom__left"></div>
+					<div className="tda__bottom__right">
+						<div className="tda__bottom__left__mainBG">
+							<div className="tda__bottom__left__mainBG__active"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div className="experience__card">
+				<div className="row">
+					<h4>Croatel</h4>
+					<img src={IMAGES.arrow} alt="open" />
+				</div>
+				<div className="experience__info">
+					<p>Graphic Designer</p>
+					<div className="row">
+						<p>2020 / 2022</p>
+						<p>Zagreb</p>
+					</div>
+					<p>Graphic designer for 2D and 3D graphics and virtual scenes. Work in the department of TV production and TV playout for Croatian Radio Television News.</p>
+				</div>
+			</div>
+
+			<div className="experience__card">
+				<div className="row">
+					<h4>Combis</h4>
+					<img src={IMAGES.arrow} alt="open" />
+				</div>
+				<div className="experience__info">
+					<p>Front-end internship</p>
+					<div className="row">
+						<p>2019</p>
+						<p>Zagreb</p>
+					</div>
+				</div>
+			</div>
+			<div className="experience__card">
+				<div className="row">
+					<h4>Deadalus</h4>
+					<img src={IMAGES.arrow} alt="open" />
+				</div>
+				<div className="experience__info">
+					<p>Game Artist</p>
+					<div className="row">
+						<p>2015</p>
+						<p>Zagreb</p>
+					</div>
+				</div>
+			</div>	
+			
+		</div>
+	)
+};
+
+export default Experience;

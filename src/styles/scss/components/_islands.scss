@@ -1,0 +1,25 @@
+
+@use "../base/_mixins.scss" as *;
+@use '../base/variables' as *;
+
+.islands {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: $grid-gap;
+    h6 {
+        text-transform: uppercase;
+        line-height: 16px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        padding-top: 1.5px;
+    }
+    img {
+        display:inline-block;
+        width: auto;
+        height: auto;
+        object-fit: cover;
+        border-radius: $base-border-radius;
+    }
+}

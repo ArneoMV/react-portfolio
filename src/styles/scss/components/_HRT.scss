@@ -1,0 +1,34 @@
+@use '../base/index' as *;
+@use "../base/_mixins.scss" as *;
+@use "../base/_variables.scss" as *;
+
+.HRT {
+    @include card();
+
+    background-image: url('../../../image/picture/HRT_01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -50px;
+    position: relative;
+    width: 100%;
+    height: 350px;
+
+    padding: $base-padding;
+
+    display: grid;
+    align-content: space-between;
+
+    .HRT__text {
+        color: $light;
+        justify-self: end;
+    }
+
+    .poster__image {
+        position: relative;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: $base-border-radius;
+        justify-self: start;
+    }
+}

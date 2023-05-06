@@ -1,0 +1,29 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+body {
+    background-color: $light;
+    margin: $base-margin;
+}
+img, iframe, object, embed, video {
+	width: 100%;
+	max-width: 100%;
+}
+img {
+    width: 50px;
+    height: auto;
+    object-fit: cover;
+}
+a {
+    text-decoration: underline;
+}
+article {
+    height: auto;
+}
+div {
+    height: auto;
+}
+.card {
+    padding: $base-padding;
+    @include card();
+}
