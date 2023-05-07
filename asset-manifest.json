@@ -1,32 +1,31 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.8557e02b.css",
-    "main.js": "/react-portfolio/static/js/main.b17974e3.js",
+    "main.css": "/react-portfolio/static/css/main.bed4f437.css",
+    "main.js": "/react-portfolio/static/js/main.4529c6ab.js",
     "static/media/HRT_01.jpg": "/react-portfolio/static/media/HRT_01.f7f799677f379a3bb025.jpg",
+    "static/media/popcoin.png": "/react-portfolio/static/media/popcoin.e80417f4f8065c16eb87.png",
     "static/media/HNK.jpg": "/react-portfolio/static/media/HNK.71324de7f199540ce289.jpg",
-    "static/media/crypto2.png": "/react-portfolio/static/media/crypto2.842c25fb36b5b1d5958a.png",
     "static/media/poster_01.jpg": "/react-portfolio/static/media/poster_01.16d38b73aa3507c9049f.jpg",
     "static/media/Travel_01.jpg": "/react-portfolio/static/media/Travel_01.232508241adcf95e34dd.jpg",
     "static/media/AMV_Logo.png": "/react-portfolio/static/media/AMV_Logo.5f7ea213213254bfe93b.png",
     "static/media/Wine.jpg": "/react-portfolio/static/media/Wine.1c0620038fe96bbe8384.jpg",
     "static/media/Vespera.png": "/react-portfolio/static/media/Vespera.ddc6b4f43ab8dd67d7b3.png",
-    "static/media/crypto1.png": "/react-portfolio/static/media/crypto1.30b9a4d01a308770da33.png",
-    "static/media/Vespera_mobile.png": "/react-portfolio/static/media/Vespera_mobile.4f3c9e861102d7cc518a.png",
     "static/media/Croatel.jpg": "/react-portfolio/static/media/Croatel.099781e28b1ecd229d2b.jpg",
     "static/media/Travel_mobile_01.jpg": "/react-portfolio/static/media/Travel_mobile_01.bb257a57abf2a84c65fc.jpg",
     "static/media/Github.svg": "/react-portfolio/static/media/Github.4381bb05c4e932f2eb6ac8943e1eb11e.svg",
     "static/media/Instagram.svg": "/react-portfolio/static/media/Instagram.34ef4559fbc2b719210c2f448e4190ba.svg",
     "static/media/Dribbble.svg": "/react-portfolio/static/media/Dribbble.899857c48064f07cf9957c4bd8d05da2.svg",
     "static/media/LinkedIn.svg": "/react-portfolio/static/media/LinkedIn.381d5a368a1cb4cb2aa66626d414b543.svg",
+    "static/media/copy.svg": "/react-portfolio/static/media/copy.950f4a1f3fb65616fc4f6ad112c30f3f.svg",
     "static/media/envelope.svg": "/react-portfolio/static/media/envelope.8b2143502cf5266b96a87c04b51d3f30.svg",
     "static/media/Medium.svg": "/react-portfolio/static/media/Medium.a8adfeede0ac16e58296a892d8d4f772.svg",
     "index.html": "/react-portfolio/index.html",
-    "static/media/arrow_icon.svg": "/react-portfolio/static/media/arrow_icon.7e4d9d2bdea8b8550344aaa1caae94dc.svg",
-    "main.8557e02b.css.map": "/react-portfolio/static/css/main.8557e02b.css.map",
-    "main.b17974e3.js.map": "/react-portfolio/static/js/main.b17974e3.js.map"
+    "static/media/arrow_icon.svg": "/react-portfolio/static/media/arrow_icon.53444333c5d763821964f78ab93bcd62.svg",
+    "main.bed4f437.css.map": "/react-portfolio/static/css/main.bed4f437.css.map",
+    "main.4529c6ab.js.map": "/react-portfolio/static/js/main.4529c6ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.8557e02b.css",
-    "static/js/main.b17974e3.js"
+    "static/css/main.bed4f437.css",
+    "static/js/main.4529c6ab.js"
   ]
 }
