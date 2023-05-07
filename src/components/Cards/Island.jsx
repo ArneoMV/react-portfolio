@@ -5,7 +5,7 @@ const Islands = () => {
 	return (
 		<div className="card islands">
 
-			<h2>Find Perfect Adriatic Coast Accommodation</h2>
+			<h3>Find Perfect Adriatic Coast Accommodation</h3>
 			<div className="card__row">
 				<div className="chip"><p>To Islands Travel</p></div>
 				<div className="chip"><p>UI/UX</p></div>
