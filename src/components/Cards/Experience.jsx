@@ -23,7 +23,7 @@ const Experience = () => {
 								<p>Zagreb</p>
 							</div>	
 						</div>
-						<p>Graphic designer for 2D and 3D graphics and virtual scenes. Work in the department of TV production and TV playout for Croatian Radio Television News.</p>
+						<p>As a Product Designer for a SaaS platform, my focus is on creating intuitive and visually engaging designs to help digital companies find the right jobs for their needs.</p>
 					</div>
 				</div>
 
@@ -39,7 +39,7 @@ const Experience = () => {
 
 
 			<div className="experience__card">
-				<div className="row">
+				<div className="card__row">
 					<h4>Croatel</h4>
 					<img src={IMAGES.arrow} alt="open" />
 				</div>
@@ -56,7 +56,7 @@ const Experience = () => {
 			</div>
 
 			<div className="experience__card">
-				<div className="row">
+				<div className="card__row">
 					<h4>Combis</h4>
 					<img src={IMAGES.arrow} alt="open" />
 				</div>
@@ -71,7 +71,7 @@ const Experience = () => {
 				</div>
 			</div>
 			<div className="experience__card">
-				<div className="row">
+				<div className="card__row">
 					<h4>Deadalus</h4>
 					<img src={IMAGES.arrow} alt="open" />
 				</div>

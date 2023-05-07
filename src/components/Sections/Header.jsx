@@ -2,9 +2,9 @@ import React from "react";
 import Logo from '../Cards/Logo.jsx';
 import Title from '../Cards/Title.jsx';
 
-const Section_1 = () => {
+const Header = () => {
 	return (
-		<section className="section_1">
+		<section className="header">
 			<div className='container'>
 				<div className='row'>
 					<Logo />
@@ -15,4 +15,4 @@ const Section_1 = () => {
 	);
 };
 
-export default Section_1;
+export default Header;

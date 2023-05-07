@@ -17,9 +17,7 @@ const IMAGES =  {
     poster: require('../image/picture/poster_01.jpg'),
     Travel_01: require('../image/picture/Travel_01.jpg'),
     Travel_mobile_01: require('../image/picture/Travel_mobile_01.jpg'),
-    wine: require('../image/picture/Wine.jpg'),
-    vespera: require('../image/picture/Vespera.png'),
-    vespera_mobile: require('../image/picture/Vespera_mobile.png')
+
 }
 
 

@@ -45,7 +45,11 @@
         background-color: $gray;
         padding: $base-padding;
         border-radius: $base-border-radius;
-
+        .row  {
+            display: flex;
+            flex-direction: row;
+            gap: $base-gap;
+        }
         img {
             height: 33px;
             width: auto;

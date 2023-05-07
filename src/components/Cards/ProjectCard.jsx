@@ -1,25 +1,19 @@
 
 import React from "react";
 
-
-import IMAGES from '../../utilities/images.js';
-
-
-
-const ProjectCard = () => {
+const ProjectCard = ({ className, title, img, chip1, chip2, description }) => {
 	return (
-		<div className="card projectCard">
+		<div className={`projectCard ${className}`}>
 
-            <figure><img src={IMAGES.wine}></img></figure>
+            <figure><img src={img}></img></figure>
 
             <div className="project__info">
-                <h2>Wine</h2>
-                <div className="row">
-                    <div className="chip"><p>Website design</p></div>
-                    <div className="chip"><p>2021</p></div>
+                <h3>{title}</h3>
+                <div className="card__row">
+                    <div className="chip"><p>{chip1}</p></div>
+                    <div className="chip"><p>{chip2}</p></div>
                 </div>
-                <p>XYZ Winery is a mid-sized winery that produces a range of high-quality wines. 
-                    The winery has been in business for several years and has a well-established customer base.</p>
+                <p>{description}</p>
             </div>
 
 		</div>

@@ -27,3 +27,8 @@ div {
     padding: $base-padding;
     @include card();
 }
+.card__row {
+    display: flex;
+    flex-direction: row;
+    gap: $base-gap;
+}

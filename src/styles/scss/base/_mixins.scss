@@ -23,3 +23,10 @@
     border: $base-border-thickness solid $gray;
     margin-bottom: $base-margin;
 }
+
+@mixin card__bg {
+    box-shadow: $base-box-shadow;
+    border-radius: $base-border-radius;
+    background-color: $light;
+    border: $base-border-thickness solid $gray;
+}
