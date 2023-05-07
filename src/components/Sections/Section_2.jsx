@@ -1,37 +1,18 @@
 import React from "react";
 
-import HRT from '../Cards/HRT.jsx';
-import Island from '../Cards/Island.jsx';
-import HNK from '../Cards/HNK.jsx';
-import About from '../Cards/About.jsx';
-import Experience from '../Cards/Experience.jsx';
-import Dashboard from '../Cards/Dashboard.jsx';
+import ProjectCard from '../Cards/ProjectCard.jsx';
+import Contact from '../Cards/Contact.jsx';
 
 
 
 const Section_2 = () => {
 	return (
-		<>
-		<section className='container'>
-			<div className='row'>
-				<div className="collumn">
-					<HRT />
-					<Island />
-					<HNK />
-				</div>
-				<div className="collumn">
-					<About />
-					<Experience />
-				</div>
-			</div>
-			{/* <Dashboard /> */}
-			
-		</section>
-		</>
-
-
-
-		
+		<div className="section_2">
+			<ProjectCard />
+			<ProjectCard />
+			<ProjectCard />
+			<Contact />
+		</div>
 	);
 };
 

@@ -1,0 +1,11 @@
+
+
+@use "../base/_mixins.scss" as *;
+@use "../base/_variables.scss" as *;
+
+.social {
+    padding: 2em;
+    .social__img {
+        @include social__img;
+    } 
+}

@@ -2,7 +2,7 @@ import React from "react";
 
 import IMAGES from '../../utilities/images.js';
 
-const Surreal = () => {
+const Poster = () => {
 	return (
 		<div className="poster">
 			<img className="poster__image" src={IMAGES.poster} />
@@ -10,4 +10,4 @@ const Surreal = () => {
 	)
 };
 
-export default Surreal;
+export default Poster;

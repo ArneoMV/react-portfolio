@@ -1,17 +1,36 @@
 import React from "react";
-import Logo from '../Cards/Logo.jsx';
-import Title from '../Cards/Title.jsx';
+
+import HRT from '../Cards/HRT.jsx';
+import Island from '../Cards/Island.jsx';
+import HNK from '../Cards/HNK.jsx';
+import About from '../Cards/About.jsx';
+import Social from '../Cards/Social.jsx';
+import CaseStudy from '../Cards/CaseStudy.jsx';
+
+
 
 const Section_1 = () => {
 	return (
-		<section className="section_1">
-			<div className='container'>
+		<div className="section_1">
+			<section className='container'>
 				<div className='row'>
-					<Logo />
-					<Title />
+					<div className="collumn">
+						<HRT />
+						<Island />
+					</div>
+					<div className="collumn">
+						<About />
+						<Social />
+						<CaseStudy />
+					</div>
 				</div>
-			</div>
-		</section>
+				<HNK />
+			</section>
+		</div>
+
+
+
+		
 	);
 };
 

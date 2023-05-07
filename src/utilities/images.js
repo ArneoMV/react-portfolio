@@ -7,6 +7,7 @@ const IMAGES =  {
     linkedin: require('../image/icon/LinkedIn.svg').default,
     medium: require('../image/icon/Medium.svg').default,
     arrow: require('../image/icon/arrow_icon.svg').default,
+    copy: require('../image/icon/copy.svg').default,
 
     logo: require('../image/AMV_Logo.png'),
 

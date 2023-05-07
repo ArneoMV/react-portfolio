@@ -4,7 +4,7 @@ import IMAGES from '../../utilities/images.js';
 const Logo = () => {
 	return (
 		<div className="card logo">
-			<div className="title">
+			<div className="name">
 				<h3>Arneo <br /> Marin-Vincetić</h3>
 			</div>
 		</div>

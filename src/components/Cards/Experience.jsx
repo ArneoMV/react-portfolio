@@ -4,25 +4,26 @@ import IMAGES from '../../utilities/images.js';
 const Experience = () => {
 	return (
 		<div className="card experience">
-			<div className="experience__card">
+			<div className="card__title">
 				<h3>Industry Experience</h3>
 			</div>
 
 			<div className="tda__body">
-				<div className="tda__top">
-					<div className="tda__top__box">
-						<div className="row">
-							<h4>Top Digital Agency</h4>
-							<img src={IMAGES.arrow} alt="open" />
-						</div>
-						<div className="tda__experience__info">
-							<p>Graphic Designer</p>
-							<div className="row">
-								<p>2020 / 2022</p>
+				<div className="experience__card">
+					<div className="row">
+						<h4>Top Digital Agency</h4>
+						<img src={IMAGES.arrow} alt="open" />
+					</div>
+
+					<div className="experience__info">
+						<div className="info">
+							<p>Product Designer</p>
+							<div className="info__row">
+								<p>2022 /</p>
 								<p>Zagreb</p>
-							</div>
-							<p>Graphic designer for 2D and 3D graphics and virtual scenes. Work in the department of TV production and TV playout for Croatian Radio Television News.</p>
+							</div>	
 						</div>
+						<p>Graphic designer for 2D and 3D graphics and virtual scenes. Work in the department of TV production and TV playout for Croatian Radio Television News.</p>
 					</div>
 				</div>
 
@@ -43,10 +44,12 @@ const Experience = () => {
 					<img src={IMAGES.arrow} alt="open" />
 				</div>
 				<div className="experience__info">
-					<p>Graphic Designer</p>
-					<div className="row">
-						<p>2020 / 2022</p>
-						<p>Zagreb</p>
+					<div className="info">
+						<p>Graphic Designer</p>
+						<div className="info__row">
+							<p>2020 / 2022</p>
+							<p>Zagreb</p>
+						</div>	
 					</div>
 					<p>Graphic designer for 2D and 3D graphics and virtual scenes. Work in the department of TV production and TV playout for Croatian Radio Television News.</p>
 				</div>
@@ -58,10 +61,12 @@ const Experience = () => {
 					<img src={IMAGES.arrow} alt="open" />
 				</div>
 				<div className="experience__info">
-					<p>Front-end internship</p>
-					<div className="row">
-						<p>2019</p>
-						<p>Zagreb</p>
+					<div className="info">
+						<p>Front-end internship</p>
+						<div className="info__row">
+							<p>2019</p>
+							<p>Zagreb</p>
+						</div>	
 					</div>
 				</div>
 			</div>
@@ -71,10 +76,12 @@ const Experience = () => {
 					<img src={IMAGES.arrow} alt="open" />
 				</div>
 				<div className="experience__info">
-					<p>Game Artist</p>
-					<div className="row">
-						<p>2015</p>
-						<p>Zagreb</p>
+					<div className="info">
+						<p>Game Artist</p>
+						<div className="info__row">
+							<p>2015</p>
+							<p>Zagreb</p>
+						</div>	
 					</div>
 				</div>
 			</div>	

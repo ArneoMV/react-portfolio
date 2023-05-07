@@ -1,31 +1,16 @@
 
-
 .section_1 {
-    height: 300px;
 
-    .container, .row {
-        height: 100%;
-    }
-    .logo {
-        background-image: url('../../../image/AMV_Logo.png');
-        background-size: contain;
-        background-position: -150px 0;
-        background-repeat: no-repeat;
-        position: relative;
-        .title {
-            height: 100%;
-            position: relative;
-            h3 {
-                position: absolute;
-                bottom: 0;
-                left: 0;
+    .container {
+        .row {
+
+            .collumn:nth-child(2) {
+                display: flex;
+                flex-direction: column;
+                .about {
+                    height: 100%;
+                }
             }
-        }    
-    }
-
-    .title {
-        h1 {
-            margin: 0;
         }
     }
 }

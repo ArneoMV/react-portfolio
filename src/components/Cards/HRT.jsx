@@ -14,9 +14,11 @@ function HRT() {
 			<div className="HRT__timeline">
 				<div className="timeline">
 					<div class="slide-thumb">
-						<span class=""></span>
-						<span class=""></span>
 						<span class="active"></span>
+						<span class=""></span>
+						<span class=""></span>
+						<span class=""></span>
+						
 					</div>
 				</div>
 			</div>
