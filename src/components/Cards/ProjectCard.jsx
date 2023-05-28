@@ -20,3 +20,5 @@ const ProjectCard = ({ className, title, img, chip1, chip2, description }) => {
 	);
 };	
 export default ProjectCard;
+
+

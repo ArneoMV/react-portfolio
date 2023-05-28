@@ -70,6 +70,7 @@ const Experience = () => {
 					</div>
 				</div>
 			</div>
+			
 			<div className="experience__card">
 				<div className="card__row">
 					<h4>Deadalus</h4>

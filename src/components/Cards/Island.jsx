@@ -23,4 +23,3 @@ const Islands = () => {
 export default Islands;
 
 
-

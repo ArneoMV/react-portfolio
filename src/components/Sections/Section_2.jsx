@@ -1,5 +1,5 @@
 import React from "react";
-
+S
 import wine from '../../image/picture/Wine.jpg';
 import vespera from '../../image/picture/Vespera.png';
 import popcoin from '../../image/picture/popcoin.png';
@@ -33,7 +33,7 @@ const Section_2 = () => {
 				className={'popcoin'}
 				title={'Popcoin'}
 				img={popcoin}
-				chip1={'App design'}
+				chip1={'App design'S}
 				chip2={'2021'}
 				description={'Keep your crypto-currency organized and easily accessible with our sleek and intuitive wallet application design.'}
 			/>
