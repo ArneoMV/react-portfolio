@@ -1,0 +1,13 @@
+@use "../../../styles/base/mixins" as *;
+@use "../../../styles/base/variables" as *;
+
+.croatel {
+    width: 100%;
+    display: grid;
+    grid-gap: $grid-gap;
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: $base-border-radius;
+    }
+}

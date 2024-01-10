@@ -1,0 +1,32 @@
+
+@use "./_variables.scss" as *;
+
+@mixin social__img {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 24px;
+    align-items: center;
+    justify-content: center;
+    img {
+        height: 32px;
+        width: auto;
+    }
+}
+
+
+@mixin card {
+    box-shadow: $base-box-shadow;
+    border-radius: $base-border-radius;
+    background-color: $light;
+    border: $base-border-thickness solid $gray;
+    margin-bottom: $base-margin;
+}
+
+@mixin card__bg {
+    box-shadow: $base-box-shadow;
+    border-radius: $base-border-radius;
+    background-color: $light;
+    border: $base-border-thickness solid $gray;
+}

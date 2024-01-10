@@ -1,6 +1,6 @@
 import React from "react";
-import Logo from '../Cards/Logo.jsx';
-import Title from '../Cards/Title.jsx';
+import Logo from '../Organism/Logo/Logo.jsx';
+import Title from '../Organism/Title/Title.jsx';
 
 const Header = () => {
 	return (

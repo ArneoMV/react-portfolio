@@ -1,5 +1,5 @@
 {
-  "homepage":"http://ArneoMV.github.io/react-portfolio",
+  "homepage": "http://ArneoMV.github.io/react-portfolio",
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +12,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-insta-stories": "^2.5.9",
+    "react-router-dom": "^6.21.1",
     "react-scripts": "5.0.1",
     "sass": "^1.61.0",
     "swiper": "^9.0.5",

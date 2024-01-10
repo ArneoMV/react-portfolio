@@ -1,7 +1,7 @@
 import React from "react";
 
-import Poster from '../Cards/Poster.jsx';
-import Experience from '../Cards/Experience.jsx';
+import Poster from '../Organism/Poster/Poster.jsx';
+import Experience from '../Organism/Experience/Experience.jsx';
 
 
 const Aside = () => {

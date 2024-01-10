@@ -1,0 +1,9 @@
+@use "../../../styles/base/mixins" as *;
+@use "../../../styles/base/variables" as *;
+
+.social {
+    padding: 2em;
+    .social__img {
+        @include social__img;
+    } 
+}

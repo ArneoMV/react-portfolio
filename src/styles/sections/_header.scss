@@ -1,0 +1,54 @@
+@use "../base/_mixins.scss" as *;
+@use '../base/variables' as *;
+@use '../layout/breakpoints' as *;
+
+.header {
+    margin-bottom: $base-margin;
+}
+
+.logo {
+    @include card__bg();
+    padding: $base-padding;
+    min-height: 350px;
+    width: auto;
+    background-image: url('../../image/AMV_Logo.png');
+    background-size: 392px auto;
+    background-position: -150px bottom;
+    background-repeat: no-repeat;
+
+    .name {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        justify-content: flex-end;
+        height: 100%;
+        width: 100%;
+
+    }
+    @media (min-width: map-get($breakpoints, "xs")) {
+
+    }
+    @media (min-width: map-get($breakpoints, "sm")) {
+
+    }
+    @media (min-width: map-get($breakpoints, "md")) {
+
+    }
+    @media (min-width: map-get($breakpoints, "lg")) {
+
+    }
+    @media (min-width: map-get($breakpoints, "xl")) {
+
+    }
+}
+
+.title {
+    @include card__bg();
+    padding: $base-padding;
+    height: 350px;
+    position: relative;
+    h1 {
+        margin: 0;
+    }
+}  

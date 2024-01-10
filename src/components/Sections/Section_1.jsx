@@ -1,11 +1,11 @@
 import React from "react";
 
-import HRT from '../Cards/HRT.jsx';
-import Island from '../Cards/Island.jsx';
-import HNK from '../Cards/HNK.jsx';
-import About from '../Cards/About.jsx';
-import Social from '../Cards/Social.jsx';
-import CaseStudy from '../Cards/CaseStudy.jsx';
+import HRT from '../Organism/HRT/HRT.jsx';
+import Island from '../Organism/Island/Island.jsx';
+import HNK from '../Organism/HNK/HNK.jsx';
+import About from '../Organism/About/About.jsx';
+import Social from '../Organism/Social/Social.jsx';
+import CaseStudy from '../Organism/CaseStudy/CaseStudy.jsx';
 
 
 
